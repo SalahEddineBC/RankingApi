@@ -78,8 +78,3 @@ def add():
         return jsonify(response), 405
 
 
-# Uncomment to add a new URL at /new
-
-# @app.route("/json")
-# def json_message():
-#     return jsonify(message="Hello World")
